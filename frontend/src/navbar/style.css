@@ -1,0 +1,74 @@
+.navbar_section {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4em;
+    background: rgba(0, 0, 0, 0.9)
+}
+
+.navbar_div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar_welcome_msg_div {
+    width: 20%;
+    padding-left: 1em;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar_navigation_div {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_navigation_div a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar_auth_div {
+    width: 20%;
+    text-align: center;
+}
+
+.navbar_auth_div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border: solid 3px white;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.navbar_auth_div button {
+    appearance: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.4em 0.5em;
+    border-radius: 0.5em;
+    border: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+.navbar_auth_div button:hover {
+    cursor: pointer;
+}
+
+
+.navbar_system_msg {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 0.5em;
+}

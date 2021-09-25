@@ -1,0 +1,108 @@
+.login_logo_div {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);*/
+    transform: translateX(-50%);
+    max-width: 600px;
+}
+
+.login_logo_div img{
+    width: 100%;
+    image-rendering: -moz-crisp-edges;
+    image-rendering:   -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+
+
+.login_form_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    border-radius: 0.5em;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 3px 0.5em rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+.login_form_div p:first-child{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-indent: 0.2em;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+.login_form input:nth-child(-n+2){
+    border: none;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.9);
+    appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.login_form input:nth-child(-n+2)::placeholder {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+}
+
+
+.login_form input:last-child {
+    background: rgba(0, 0, 0, 0.9);
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+.login_form input:last-child:hover {
+    cursor: pointer;
+}
+
+
+.login_form_div span {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1em;
+    text-decoration: none;
+}
+
+.login_form_div a {
+    text-decoration: none;
+    margin-top: 0.5em;
+}

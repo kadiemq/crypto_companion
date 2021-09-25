@@ -1,0 +1,56 @@
+.alerts_section {
+    max-width: 1200px;
+    margin: 1em auto 0 auto;
+}
+
+.alerts_add_news_wrapper {
+    padding: 1em;
+    text-align: center;
+}
+
+.alerts_add_news_wrapper a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 2rem;
+}
+
+.alert_single {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.alert_symbol {
+    width: 10%;
+}
+
+
+.alert_info {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alert_actions {
+    width: 10%;
+}
+
+.alert_actions button {
+    appearance: none;
+    border: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-size: 1.1rem;
+}
+
+
+.alert_actions button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.news_section {
+    max-width: 1200px;
+    margin: 1em auto 0 auto;
+}
+
+.news_article_div {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.news_image_wrapper {
+    width: 30%;
+    padding-left: 1em;
+}
+
+.news_image_wrapper img {
+    width: 100%;
+}
+
+
+.news_title_wrapper {
+    width: 70%;
+}
+
+.news_title_wrapper a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
